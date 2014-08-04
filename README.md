@@ -1,4 +1,4 @@
 VidCoin-Unity-SDK
 =================
 
-Vidcoin iOS SDK
+Vidcoin Unity SDK
