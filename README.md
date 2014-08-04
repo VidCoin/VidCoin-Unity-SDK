@@ -3,7 +3,7 @@ VidCoin-Unity-SDK
 
 ##Download and install
 
-*Public link to download the Unity Package will be available soon*
+*Public link to download the Unity Package will be available soon.*
 
 <!-- [Download the latest Unity package (.unitypackage + Documentation)](https://github.com/VidCoin/VidCoin-Unity-SDK/releases/download/v1.0.0/VidCoin-Unity-SDK.zip) -->
 
