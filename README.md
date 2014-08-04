@@ -3,7 +3,7 @@ VidCoin-Unity-SDK
 
 ##Download and install
 
-Download the latest Unity package (.unitypackage + Documentation)<!---(https://github.com/VidCoin/VidCoin-Unity-SDK/releases/download/v1.0.0/VidCoin-Unity-SDK.zip)--> *Coming soon*
+[Download the latest Unity package (.unitypackage + Documentation)](https://github.com/VidCoin/VidCoin-Unity-SDK/releases/download/v1.0.0/VidCoin-Unity-SDK.zip) *Coming soon*
 
 You will also need the latest release of the [iOS SDK](https://github.com/VidCoin/VidCoin-iOS-SDK).
 
