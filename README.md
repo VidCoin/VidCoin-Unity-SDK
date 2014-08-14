@@ -19,6 +19,7 @@ You will also need the latest release of the [iOS SDK](https://github.com/VidCoi
 ##Changelog
 
 ###v1.0.0
+*(Released on 08/04/2014)*
 
 - First public release
 - Support for iOS
