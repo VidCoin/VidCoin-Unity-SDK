@@ -11,7 +11,7 @@ You will also need the latest release of the [iOS SDK](https://github.com/VidCoi
 
 | Unity Package version  | Compatible iOS SDK versions | Compatible Android SDK versions |
 | :-------------: | :-------------: | :-------------: |
-| 1.0.0 *(latest)*  | 1.0.0 > 1.1.1 *(latest)* | *NA* - If you're interested, please [contact us](mailto:publishers@vidcoin.com) ! |
+| 1.0.0 *(latest)*  | 1.0.0 > 1.1.1 | *NA* - If you're interested, please [contact us](mailto:publishers@vidcoin.com) ! |
 
 ##Preview
 ![VidCoin Mobile Overlay](https://raw.githubusercontent.com/VidCoin/VidCoin-iOS-SDK/gh-pages/images/vc_preview.png "VidCoin Mobile Overlay")
