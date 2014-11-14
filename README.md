@@ -15,7 +15,7 @@ You will also need the latest release of the [iOS SDK](https://github.com/VidCoi
 | 1.0.0  | 1.0.0 > 1.1.1 | *NA* |
 
 ##Preview
-![VidCoin Mobile Overlay](https://raw.githubusercontent.com/VidCoin/VidCoin-iOS-SDK/gh-pages/images/vc_preview.png "VidCoin Mobile Overlay")
+![VidCoin Mobile Overlay](https://googledrive.com/host/0B6TMHf2nEKbFdFQxTjJJaGZUWm8 "VidCoin Mobile Overlay")
 
 ##Changelog
 
