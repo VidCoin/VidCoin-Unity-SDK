@@ -6,18 +6,25 @@ VidCoin-Unity-SDK
 [Download the latest Unity package (.unitypackage, Documentation, Android & iOS SDKs)](https://github.com/VidCoin/VidCoin-Unity-SDK/releases/download/v1.1.0/VidCoin-Unity-SDK.zip)
 
 ###Table of compatibility
+<!---
+| Unity Package version  | Compatible iOS SDK versions | Compatible Android SDK versions |
+| :-------------: | :-------------: | :-------------: |
+| 1.2.0 *(latest)* | 1.2.1 | 1.0.0 |
+| 1.1.0 | 1.2.0 | *NA* |
+| 1.0.0 | 1.0.0 > 1.1.1 | *NA* |
+-->
 
 | Unity Package version  | Compatible iOS SDK versions | Compatible Android SDK versions |
 | :-------------: | :-------------: | :-------------: |
-<!--| 1.2.0 *(latest)* | 1.2.1 | 1.0.0 |-->
 | 1.1.0 | 1.2.0 | *NA* |
 | 1.0.0 | 1.0.0 > 1.1.1 | *NA* |
+
 
 ##Preview
 ![VidCoin Mobile Overlay](https://googledrive.com/host/0B6TMHf2nEKbFdFQxTjJJaGZUWm8 "VidCoin Mobile Overlay")
 
 ##Changelog
-<!--
+<!---
 ###v1.2.0
 *(Released on 24 Feb. 2015)*
 
