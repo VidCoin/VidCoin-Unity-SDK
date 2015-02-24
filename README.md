@@ -9,9 +9,9 @@ VidCoin-Unity-SDK
 
 | Unity Package version  | Compatible iOS SDK versions | Compatible Android SDK versions |
 | :-------------: | :-------------: | :-------------: |
-| 1.2.0 *(latest)*  | 1.2.1 | 1.0.0 |
-| 1.1.0 *(latest)*  | 1.2.0 | *NA* |
-| 1.0.0  | 1.0.0 > 1.1.1 | *NA* |
+| 1.2.0 *(latest)* | 1.2.1 | 1.0.0 |
+| 1.1.0 | 1.2.0 | *NA* |
+| 1.0.0 | 1.0.0 > 1.1.1 | *NA* |
 
 ##Preview
 ![VidCoin Mobile Overlay](https://googledrive.com/host/0B6TMHf2nEKbFdFQxTjJJaGZUWm8 "VidCoin Mobile Overlay")
