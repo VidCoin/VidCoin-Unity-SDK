@@ -5,6 +5,10 @@ VidCoin-Unity-SDK
 
 [Download the latest Unity package (.unitypackage, Documentation, Android & iOS SDKs)](https://github.com/VidCoin/VidCoin-Unity-SDK/releases/download/v1.2.1/VidCoin-Unity-SDK.zip)
 
+**Important notice:**
+
+If you're **updating from a previous version**, make sure to read **the Upgrade Guide** available in the "Documentation" folder.
+
 ###Table of compatibility
 
 | Unity Package version  | Compatible iOS SDK versions | Compatible Android SDK versions |
