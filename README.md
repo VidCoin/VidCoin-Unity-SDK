@@ -29,41 +29,41 @@ If you're **updating from a previous version**, make sure to read **the Upgrade 
 ###v1.3.0
 *(Released on 17 Sep. 2015)*
 
-• Divided unity packages for Unity 5.X and 4.X for an easier integration 
-• Updated for the latest iOS SDK (v1.3.0) 
-• Packages the latest Android SDK (v1.1.3) 
+* Divided unity packages for Unity 5.X and 4.X for an easier integration 
+* Updated for the latest iOS SDK (v1.3.0) 
+* Packages the latest Android SDK (v1.1.3) 
 
 ###v1.2.3
 *(Released on 03 Sep. 2015)*
 
-• Packages the latest iOS SDK (v1.2.4)
-• Packages the latest Android SDK (v1.1.3)
+* Packages the latest iOS SDK (v1.2.4)
+* Packages the latest Android SDK (v1.1.3)
 
 ###v1.2.2
 *(Released on 25 Aug. 2015)*
 
-• Packages the latest iOS SDK (v1.2.4)
-• Packages the latest Android SDK (v1.1.2)
+* Packages the latest iOS SDK (v1.2.4)
+* Packages the latest Android SDK (v1.1.2)
 
 ###v1.2.1
 *(Released on 27 Jul. 2015)*
 
-• Updated for the latest iOS SDK (v1.2.3)
-• Added the first release of the Android SDK (v1.1.1)
+* Updated for the latest iOS SDK (v1.2.3)
+* Added the first release of the Android SDK (v1.1.1)
 
 ###v1.2.0
 *(Released on 24 Feb. 2015)*
 
-• Updated for the latest iOS SDK (v1.2.1)
-• Added the first release of the Android SDK (v1.0.0)
+* Updated for the latest iOS SDK (v1.2.1)
+* Added the first release of the Android SDK (v1.0.0)
 
 ###v1.1.0
 *(Released on 14 Nov. 2014)*
 
-• Updated for the latest iOS SDK (v1.2.0)
+* Updated for the latest iOS SDK (v1.2.0)
 
 ###v1.0.0
 *(Released on 08 Apr. 2014)*
 
-• First public release
-• Support for iOS
+* First public release
+* Support for iOS
