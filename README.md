@@ -13,6 +13,7 @@ If you're **updating from a previous version**, make sure to read **the Upgrade 
 
 | Unity Package version  | Compatible iOS SDK versions | Compatible Android SDK versions |
 | :-------------: | :-------------: | :-------------: |
+| 1.3.0 | 1.3.0 | 1.1.3 |
 | 1.2.3 | 1.2.4 | 1.1.3 |
 | 1.2.2 | 1.2.4 | 1.1.2 |
 | 1.2.1 | 1.2.3 | 1.1.1 |
@@ -24,6 +25,13 @@ If you're **updating from a previous version**, make sure to read **the Upgrade 
 ![VidCoin Mobile Overlay](https://googledrive.com/host/0B6TMHf2nEKbFdFQxTjJJaGZUWm8 "VidCoin Mobile Overlay")
 
 ##Changelog
+
+###v1.3.0
+*(Released on 17 Sep. 2015)*
+
+• Divided unity packages for Unity 5.X and 4.X for an easier integration 
+• Updated for the latest iOS SDK (v1.3.0) 
+• Packages the latest Android SDK (v1.1.3) 
 
 ###v1.2.3
 *(Released on 03 Sep. 2015)*
