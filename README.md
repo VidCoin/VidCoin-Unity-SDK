@@ -13,9 +13,6 @@ VidCoin-Unity-SDK
 
 ##Additional Informations
 
-###Deprecations
-Versions **1.2.0 and before** have been partly disabled. For the maximum compatibilty, make sure your app runs the latest version available.
-
 ###Table of compatibility
 
 | Unity Package version  | Compatible iOS SDK versions | Compatible Android SDK versions |
@@ -30,6 +27,9 @@ Versions **1.2.0 and before** have been partly disabled. For the maximum compati
 | 1.2.0 | 1.2.1 | 1.0.0 |
 | 1.1.0 | 1.2.0 | *NA* |
 | 1.0.0 | 1.0.0 > 1.1.1 | *NA* |
+
+###Deprecations
+Versions **1.2.0 and before** have been partly disabled. For the maximum compatibilty, make sure your app runs the latest version available.
 
 ##Preview
 ![VidCoin Mobile Overlay](https://googledrive.com/host/0B6a-nwag10vpMkRUZTZlVWJIcTQ "VidCoin Mobile Overlay")
