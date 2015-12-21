@@ -11,6 +11,11 @@ VidCoin-Unity-SDK
 
 * If you're **updating from a previous version**, make sure to read **the Upgrade Guide** available in the "Documentation" folder.
 
+##Additional Informations
+
+###Deprecations
+Versions **1.2.0 and before** have been partly disabled. For the maximum compatibilty, make sure your app runs the latest version available.
+
 ###Table of compatibility
 
 | Unity Package version  | Compatible iOS SDK versions | Compatible Android SDK versions |
