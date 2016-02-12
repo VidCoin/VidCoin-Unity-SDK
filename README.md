@@ -15,7 +15,7 @@ VidCoin-Unity-SDK
 
 ###Table of compatibility
 
-| Unity Package version  | Compatible iOS SDK versions | Compatible Android SDK versions | Compatible Android SDK versions |
+| Unity Package version  | Compatible iOS SDK versions | Compatible Android SDK versions | Compatible tvOS SDK versions |
 | :-------------: | :-------------: | :-------------: | :-------------: |
 | 1.5.0 | 1.3.3 | 1.2.0 | 1.0.0 |
 | 1.4.1 | 1.3.2 | 1.1.6 | *NA* |
