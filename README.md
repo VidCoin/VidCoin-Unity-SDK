@@ -3,7 +3,7 @@ VidCoin-Unity-SDK
 
 ##Download and install
 
-[Download the latest Unity package (.unitypackage + Documentation)](https://github.com/VidCoin/VidCoin-Unity-SDK/releases/download/v1.4.1/VidCoin-Unity-SDK.zip)
+[Download the latest Unity package (.unitypackage + Documentation)](https://github.com/VidCoin/VidCoin-Unity-SDK/releases/download/v1.5.0/VidCoin-Unity-SDK.zip)
 
 **Important notice:**
 
@@ -15,18 +15,19 @@ VidCoin-Unity-SDK
 
 ###Table of compatibility
 
-| Unity Package version  | Compatible iOS SDK versions | Compatible Android SDK versions |
-| :-------------: | :-------------: | :-------------: |
-| 1.4.1 | 1.3.2 | 1.1.6 |
-| 1.4.0 | 1.3.2 | 1.1.5 |
-| 1.3.1 | 1.3.1 | 1.1.4 |
-| 1.3.0 | 1.3.0 | 1.1.3 |
-| 1.2.3 | 1.2.4 | 1.1.3 |
-| 1.2.2 | 1.2.4 | 1.1.2 |
-| 1.2.1 | 1.2.3 | 1.1.1 |
-| 1.2.0 | 1.2.1 | 1.0.0 |
-| 1.1.0 | 1.2.0 | *NA* |
-| 1.0.0 | 1.0.0 > 1.1.1 | *NA* |
+| Unity Package version  | Compatible iOS SDK versions | Compatible Android SDK versions | Compatible Android SDK versions |
+| :-------------: | :-------------: | :-------------: | :-------------: |
+| 1.5.0 | 1.3.3 | 1.2.0 | 1.0.0 |
+| 1.4.1 | 1.3.2 | 1.1.6 | *NA* |
+| 1.4.0 | 1.3.2 | 1.1.5 | *NA* |
+| 1.3.1 | 1.3.1 | 1.1.4 | *NA* |
+| 1.3.0 | 1.3.0 | 1.1.3 | *NA* |
+| 1.2.3 | 1.2.4 | 1.1.3 | *NA* |
+| 1.2.2 | 1.2.4 | 1.1.2 | *NA* |
+| 1.2.1 | 1.2.3 | 1.1.1 | *NA* |
+| 1.2.0 | 1.2.1 | 1.0.0 | *NA* |
+| 1.1.0 | 1.2.0 | *NA* | *NA* |
+| 1.0.0 | 1.0.0 > 1.1.1 | *NA* | *NA* |
 
 ###Deprecations
 Versions **1.2.0 and before** have been partly disabled. For the maximum compatibilty, make sure your app runs the latest version available.
@@ -35,6 +36,15 @@ Versions **1.2.0 and before** have been partly disabled. For the maximum compati
 ![VidCoin Mobile Overlay](https://googledrive.com/host/0B6a-nwag10vpMkRUZTZlVWJIcTQ "VidCoin Mobile Overlay")
 
 ##Changelog
+
+###v1.5.0
+*(Released on 11 Feb. 2016)*
+
+* Overall stabilization for Android
+* Updated for the latest iOS SDK (v1.3.3)
+* Updated for the latest Android SDK (v1.2.0)
+* Added the first release of the tvOS SDK (v1.0.0)
+* Removed support for Unity4
 
 ###v1.4.1
 *(Released on 11 Dec. 2015)*
