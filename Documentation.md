@@ -1,12 +1,12 @@
 # Vidcoin Unity - QuickStart Guide
 
 ## Overview						
-Vidcoin SDK enables you to broadcast videos in your games in order to give users access to restricted content or to obtain virtual currency for free.
+Vidcoin SDK enables you to broadcast videos in your apps in order to give users access to restricted content or to obtain virtual currency for free.
 This document and the archive contain all the information you need in order to integrate our solution and start broadcasting videos. You’ll find an integration example inside unitypackage. You can also contact us directly at publishers@vidcoin.com.
 
 ## Account Settings						
-An approved and valid publisher account is necessary in order to use the SDK. If you do not have an account, please sign up directly on https://manager.vidcoin.com/publishers.
-This also grants you access to statistics and detailed reports in our Publisher backoffice in the Vidcoin manager.
+An approved and valid publisher account is necessary in order to use the SDK. If you do not have an account, please sign up directly on https://manager.vidcoin.com.
+This also grants you access to statistics and detailed reports in our Publishers Back-Office.
 
 ### App Creation
 You can access App Creation in the “App” menu of your publisher area. The creation of an app generates an “App ID” which will be mandatory in order to use the Vidcoin SDK. 
@@ -17,7 +17,7 @@ A Placement represents the zone in your app where the videos will be available f
 - Test Mode: when “Test Mode” is activated, the Placement will always display videos for users, without any restrictions. Test mode placements do not generate any revenue.
 
 #### Access Sponsoring		
-An Access Sponsoring placement allows users to access a specific part of the game by watching a video. The user does not necessarily need to be logged in to your game in order to access videos. The process does not need a server-side callback and is only executed on the client-side.
+An Access Sponsoring placement allows users to access a specific part of the app by watching a video. The user does not necessarily need to be logged in to your app in order to access videos. The process does not need a server-side callback and is only executed on the client-side.
 
 #### Item Sponsoring					
 An Item Sponsoring placement rewards the player with virtual currency. The user must therefore be logged in and have a specific and unique identifier. The validation of the transaction uses a secured server callback to credit the user.
@@ -31,7 +31,7 @@ The following settings can be defined for all Item Sponsoring placements:
 ## Setting up the framework in your Unity Project
 
 ### Step 1 : Getting the Vidcoin Unity Package
-Download and open the zip file from Github : https://github.com/VidCoin/VidCoin-Unity-SDK
+Download and open the zip file from this repository (https://github.com/VidCoin/VidCoin-Unity-SDK).
 
 ### Step 2 : Importing Vidcoin into the Unity project
 Open your project in Unity and select “Assets/Import Package/Custom Package…”.
@@ -47,9 +47,9 @@ Then, simply import the package as described in Step 3. New files will be added 
 
 ![Image2](http://www.googledrive.com/host/0Bwu-tkR-jL-5SDRpYVI5V3FpNDA)
 
-### Step 3 : Set up Vidcoin in your game
+### Step 3 : Set up Vidcoin in your app
 To use Vidcoin in your app, follow these simple steps :
-1. Open the first scene in your game
+1. Open the first scene in your app
 2. Add the Vidcoin prefab to the hierarchy
 3. Fill in your Vidcoin AppID in the inspector.
 
@@ -176,9 +176,9 @@ To update the iOS or tvOS framework in your Xcode project, simply remove the old
 ## How to use Vidcoin in your Unity Project
 *Note : You can refer to the file VidCoinExample.cs included in VidCoin.unitypackage to see how you can use Vidcoin.*
 
-### Setting up Vidcoin in the game
-Follow step 3 to set up Vidcoin in your Unity game.
-You can then use Vidcoin from any script in the game by calling:
+### Setting up Vidcoin in the app
+Follow step 3 to set up Vidcoin in your Unity app.
+You can then use Vidcoin from any script in the app by calling:
 ```c
 VidCoin.OneOfTheMethods();
 ```
@@ -270,7 +270,7 @@ Triggered when the server answers after the framework tried to validate the view
   - `int reward = (int) viewInfo["reward"];`
   - `VidCoin.VCStatusCode statusCode = (VidCoin.VCStatusCode) viewInfo["statusCode"];`
 
-The value associated to the `reward` key now contains the amount of your in-game currency that was *actually* credited to the user on the server side. 
+The value associated to the `reward` key now contains the amount of your in-app currency that was *actually* credited to the user on the server side. 
 
 The `statusCode` variable can have two values: 
   - `VCStatusCodeSuccess` : The Vidcoin server validated the view
@@ -291,10 +291,10 @@ When you submit your app for Apple’s approval, you will be asked if your app u
 The integration of the Vidcoin solution must not deteriorate the user experience.
 Because of certain parameters and restrictions (country, number of videos already viewed...) there may not always be available videos.
 
-A non-blocking integration consists in offering Vidcoin to the user as an alternate solution to the classical running of the game.
+A non-blocking integration consists in offering Vidcoin to the user as an alternate solution to the classical running of the app.
 
 Here is an example :
-- The user is presented a given view of the game
+- The user is presented a given view of the app
 - A button “Please sign-in to access your content” is presented
 - Make the view subscribe to Vidcoin’s events, and implement the method triggered by the event called `OnCampaignsUpdate`
 - In this method, if a call to Vidcoin’s method `VideoIsAvailableForPlacement` returns true for the given placement code, a second button can be presented: “Watch a video to access your content”
