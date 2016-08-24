@@ -5,6 +5,8 @@ VidCoin-Unity-SDK
 
 [Download the latest Unity package (.unitypackage + Documentation)](https://github.com/VidCoin/VidCoin-Unity-SDK/releases/download/v1.5.1/VidCoin-Unity-SDK.zip)
 
+[Online Documentation](https://github.com/VidCoin/VidCoin-Unity-SDK/blob/master/Documentation.md)
+
 **Important notice:**
 
 * Release v1.4.1 is the last one supporting Unity 4.X. For more informations, please refer to the note in the release folder.
