@@ -279,7 +279,7 @@ The `statusCode` variable can have two values:
 A good place to add functions to the events’ lists is in the `Start()` function of scripts.
 Do not do this in the `Awake()` function as the lists might not be initialized and it could cause errors.
 
-*Note : This event will always be triggered **after** `OnViewDidDisappear`*
+*Note : This event will always be triggered after `OnViewDidDisappear`*
 
 ## Submitting to the App Store (iOS/tvOS Only)
 
