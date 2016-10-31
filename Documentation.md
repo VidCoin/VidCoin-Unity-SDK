@@ -1,40 +1,43 @@
-# Vidcoin Unity - QuickStart Guide
+# Vidcoin Unity SDK - QuickStart Guide
+
+![Vidcoin](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-Logo.png)
+
+SDK version: 1.6.0					
+Manager: https://manager.vidcoin.com			
+Contact: publishers@vidcoin.com			
 
 ## Overview						
-Vidcoin SDK enables you to broadcast videos in your apps in order to give users access to restricted content or to obtain virtual currency for free.
-This document and the archive contain all the information you need in order to integrate our solution and start broadcasting videos. You’ll find an integration example inside unitypackage. You can also contact us directly at publishers@vidcoin.com.
+Vidcoin Unity SDK enables you to broadcast videos in your apps in order to give users access to restricted content or to obtain virtual currency for free.
+This document and the archive contain all the information you need in order to integrate our solution and start broadcasting videos. You can also contact us directly at publishers@vidcoin.com.
 
 ## Account Settings						
-An approved and valid publisher account is necessary in order to use the SDK. If you do not have an account, please sign up directly on https://manager.vidcoin.com.
+An approved and valid publisher account is necessary in order to use the SDK. If you do not have an account, please sign up directly on [https://manager.vidcoin.com](https://manager.vidcoin.com).
 This also grants you access to statistics and detailed reports in our Publishers Back-Office.
 
 ### App Creation
-You can access App Creation in the “App” menu of your publisher area. The creation of an app generates an “App ID” which will be mandatory in order to use the Vidcoin SDK. 
+You can access App Creation in the “App” menu of your publisher area. The creation of an app generates an “App ID” which will be mandatory in order to use the Vidcoin web SDK.
 
 ### Placement Creation			
-A Placement represents the zone in your app where the videos will be available for broadcasting. There are different settings available for any app Placement:
-- Minimum Payout: corresponds to the minimum revenue that a video must generate in order to be offered to a user. We recommend you to set "No minimum payout" to get more videos. We will automatically give you the highest pricing.
-- Test Mode: when “Test Mode” is activated, the Placement will always display videos for users, without any restrictions. Test mode placements do not generate any revenue.
+A Placement represents the zone in your app where the videos will be available for broadcasting. There are different settings available for any app Placement:			
+- Minimum Payout: corresponds to the minimum revenue that a video must generate in order to be offered to a user. We recommend you to set "No minimum payout" to get more videos. We will automatically give you the highest pricing.			
+- Test Mode: when “Test Mode” is activated, the Placement will always display videos for users, without any restrictions. Test mode placements do not generate any revenue.		
 
-#### Access Sponsoring		
-An Access Sponsoring placement allows users to access a specific part of the app by watching a video. The user does not necessarily need to be logged in to your app in order to access videos. The process does not need a server-side callback and is only executed on the client-side.
+Basic configuration allows users to access a specific part of the app by watching a video. Once the advertisement's guaranteed duration is reached, you can unlock the content.		
 
-#### Item Sponsoring					
-An Item Sponsoring placement rewards the player with virtual currency. The user must therefore be logged in and have a specific and unique identifier. The validation of the transaction uses a secured server callback to credit the user.
-The following settings can be defined for all Item Sponsoring placements:			
-- Callback URL: URL that will be used to validate the transaction (please see “Set up of a server callback”)			
-- Virtual Currency Name: name of your virtual currency			
-- You can choose 2 types of rewards for the user:
-    - Exchange rate: rate defining how much 1€ equals of your virtual currency. Please note that we recommend that you use a low exchange rate such that 1€ = 1000 of your virtual currency. This will prevent any problems of crediting users with small amounts of virtual currency.
-    - Fixed reward: amount of virtual currency the user will be rewarded for 1 view.
+If you want to reward your users with items or currency, you will have more settings available : 			
+- Reward name: name of your virtual currency.		
+- You can choose 2 types of rewards for the user:		
+	- Conversion rate: rate defining how much 1€ equals of your virtual currency. Please note that we recommend that you use a low exchange rate such that 1€ = 1000 of your virtual currency. This will prevent any problems of crediting users with small amounts of virtual currency.	
+	- Fixed reward: amount of virtual currency the user will be rewarded for 1 view.	
+	- Callback URL (Optional): URL that will be used to validate the transaction on your servers.		
 
 ## Setting up the framework in your Unity Project
 
 ### Step 1 : Getting the Vidcoin Unity Package
-Download and open the zip file from this repository (https://github.com/VidCoin/VidCoin-Unity-SDK).
+Download and open the zip file from Github: [https://github.com/VidCoin/VidCoin-Unity-SDK](https://github.com/VidCoin/VidCoin-Unity-SDK)
 
 ### Step 2 : Importing Vidcoin into the Unity project
-Open your project in Unity and select “Assets/Import Package/Custom Package…”.
+Open your project in Unity and select “Assets/Import Package/Custom Package...”.
 Navigate to your download folder and select VidCoin.unitypackage. Click on the “All” button first, then click on the “Import” button.
 
 ![Image1](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-Unity-1.png)
@@ -70,6 +73,7 @@ Vidcoin requires additions to the default AndroidManifest.xml file generated by 
 <activity
     android:name="com.vidcoin.sdkandroid.extensions.MovieActivity"
     android:launchMode="singleTop"
+    android:configChanges="orientation|screenSize"
     android:theme="@style/VC__AppTheme.NoActionBar.FullScreen" />
 <activity
     android:name="com.vidcoin.sdkandroid.extensions.WebViewActivity"
@@ -134,9 +138,9 @@ When building your project for iOS or tvOS, Unity creates an Xcode project. You 
     - AdSupport.framework (iOS and tvOS)
     - AVFoundation.framework (iOS and tvOS)
     - CoreMedia.framework (iOS and tvOS)
-    - SystemConfiguration.framework (iOS and tvOS)
     - CoreTelephony.framework (iOS only)
-    - MediaPlayer.framework (iOS only)
+    - SystemConfiguration.framework (iOS and tvOS)
+    - WebKit.framework (iOS only, set to *Optional*)
 4. Drag and Drop the Vidcoin iOS or tvOS SDK (located in the *Assets/Plugins/iOS* or *Assets/Plugins/tvOS* folder of your Unity project) on your Xcode project and make sure “Copy items if needed” is ticked.
 5. Under “Copy Bundle Resources”, click on the “+” button, then on the “Add Other…” button. Navigate to the *Assets/Plugins/iOS* or *Assets/Plugins/tvOS* folder of your Unity project and select VidCoin.bundle
 
@@ -150,12 +154,12 @@ You can now build your Xcode project as you normally would.
 
 ![Image6](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-Unity-6.png)
 
-### Recommended step: Disabling iOS 9’s ATS
-With iOS 9, Apple introduced a new feature called App Transport Security (ATS), which is a default setting that prevents your app from making non-secure connections. With ATS, any app built against iOS 9 using XCode 7 will only allow HTTPS connections.
+### Recommended step: Configuring App Transport Security (ATS) Settings
+With iOS 9, Apple introduced a new feature called App Transport Security (ATS), which requires your app to make secure network connections via SSL, and enforces HTTPS connections through its requirements on the SSL version, encryption cipher, and key length.      
+Since v1.3.0, Vidcoin’s iOS SDK is fully compatible with iOS 9, which means you should not worry about any ad revenue drop from our service. Nevertheless, some of our partners will not be able to make the transition that easily. To ensure you get the best service possible from our product, we recommend you disable ATS in your project.
 
-Starting with v1.3.0, Vidcoin’s iOS SDK is fully compatible with iOS 9, which mean you should not worry about any ad revenue drop from our service. Nevertheless, some of our partners will not be able to make the transition that easily. To ensure you get the best service possible from our product, we recommend you disable ATS in your project.
+With iOS 9, Apple provided a way to easily disable ATS in a project, by add the following lines to the project’s `.plist` file:
 
-Apple provided a way to do so easily. Simply add the following lines to your project’s .plist file:
 ```xml
 <key>NSAppTransportSecurity</key>
 <dict>
@@ -163,7 +167,17 @@ Apple provided a way to do so easily. Simply add the following lines to your pro
     <true/>
 </dict>
 ```
-Do note that this change only impacts apps built for iOS 9, and apps built for older iOS versions will not be affected.
+
+With iOS 10, Apple is restricting the usage of `NSAllowsArbitraryLoads`, and setting this key’s value to YES triggers App Store review and requires justification.      
+When building against iOS 10, you can disable ATS for web content only:
+
+```xml
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsArbitraryLoadsInWebContent</key>
+    <true/>
+</dict>
+```
 
 ### Updating the iOS or tvOS framework
 To update the iOS or tvOS framework in your Xcode project, simply remove the old versions of the .bundle and .framework from the project, and add the new bundle and framework files :
@@ -285,7 +299,7 @@ Do not do this in the `Awake()` function as the lists might not be initialized a
 
 When you submit your app for Apple’s approval, you will be asked if your app uses the Advertising Identifier. Vidcoin’s framework does use this identifier, in order to serve advertisements within your app:
 
-![Image7](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-Unity-7.png)
+![Image7](images/Vidcoin-Unity-7.png)
 
 ## Advice for integration
 The integration of the Vidcoin solution must not deteriorate the user experience.
@@ -305,4 +319,4 @@ This type of integration avoids proposing a user to watch a video if none is ava
 The sample app gives a good example of a recommended integration.
 
 ## Server-side callback (optional)
-If you want to use a server-side callback to credit your users (Item Sponsoring placement), you can download our PHP SDK: https://github.com/VidCoin/VidCoin-PHP-SDK
+If you want to use a server-side callback to credit your users, you can download our PHP SDK: https://github.com/VidCoin/VidCoin-PHP-SDK
