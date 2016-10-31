@@ -299,7 +299,7 @@ Do not do this in the `Awake()` function as the lists might not be initialized a
 
 When you submit your app for Apple’s approval, you will be asked if your app uses the Advertising Identifier. Vidcoin’s framework does use this identifier, in order to serve advertisements within your app:
 
-![Image7](images/Vidcoin-Unity-7.png)
+![Image7](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-Unity-7.png)
 
 ## Advice for integration
 The integration of the Vidcoin solution must not deteriorate the user experience.
