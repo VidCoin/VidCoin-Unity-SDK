@@ -3,7 +3,7 @@ VidCoin-Unity-SDK
 
 ##Download and install
 
-[Download the latest Unity package (.unitypackage + Documentation)](https://github.com/VidCoin/VidCoin-Unity-SDK/releases/download/v1.5.1/VidCoin-Unity-SDK.zip)
+[Download the latest Unity package (.unitypackage + Documentation)](https://github.com/VidCoin/VidCoin-Unity-SDK/releases/download/v1.6.0/VidCoin-Unity-SDK.zip)
 
 [Online Documentation](https://github.com/VidCoin/VidCoin-Unity-SDK/blob/master/Documentation.md)
 
@@ -11,7 +11,7 @@ VidCoin-Unity-SDK
 
 * Release v1.4.1 is the last one supporting Unity 4.X. For more informations, please refer to the note in the release folder.
 
-* If you're **updating from a previous version**, make sure to read **the Upgrade Guide** available in the "Documentation" folder.
+* If you're **updating from a previous version**, make sure to read **the Update Guide** available in the "Documentation" folder.
 
 ##Additional Informations
 
@@ -19,6 +19,7 @@ VidCoin-Unity-SDK
 
 | Unity Package version  | Compatible iOS SDK versions | Compatible Android SDK versions | Compatible tvOS SDK versions |
 | :-------------: | :-------------: | :-------------: | :-------------: |
+| 1.6.0 | 1.4.0 | 1.3.0 | 1.0.1 |
 | 1.5.1 | 1.3.5 | 1.2.2 | 1.0.1 |
 | 1.5.0 | 1.3.3 | 1.2.0 | 1.0.0 |
 | 1.4.1 | 1.3.2 | 1.1.6 | *NA* |
@@ -39,6 +40,12 @@ Versions **1.2.0 and before** have been partly disabled. For the maximum compati
 ![VidCoin Mobile Overlay](https://d3rud9259azp35.cloudfront.net/preview/ios.png "VidCoin Mobile Overlay")
 
 ##Changelog
+
+###v1.6.0
+*(Released on 31 Oct. 2016)*
+
+* Updated for the latest iOS SDK (v1.4.0)
+* Updated for the latest Android SDK (v1.3.0)
 
 ###v1.5.1
 *(Released on 28 Jul. 2016)*
