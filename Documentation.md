@@ -2,9 +2,12 @@
 
 ![Vidcoin](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-Logo.png)
 
-SDK version: 1.6.0					
-Manager: https://manager.vidcoin.com			
-Contact: publishers@vidcoin.com			
+Unity version: 1.6.1          
+Packaged iOS SDK version: 1.4.1         
+Packaged Android SDK version: 1.3.1         
+Packaged tvOS SDK version: 1.0.1         
+Manager: https://manager.vidcoin.com      
+Contact: publishers@vidcoin.com     
 
 ## Overview						
 Vidcoin Unity SDK enables you to broadcast videos in your apps in order to give users access to restricted content or to obtain virtual currency for free.
