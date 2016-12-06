@@ -42,7 +42,7 @@ Versions **1.2.0 and before** have been partly disabled. For the maximum compati
 
 ##Changelog
 
-###v1.6.0
+###v1.6.1
 *(Released on 23 Nov. 2016)*
 - Updated for the latest iOS SDK (v1.4.1)
 - Updated for the latest Android SDK (v1.3.1)
