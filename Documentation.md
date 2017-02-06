@@ -41,7 +41,7 @@ Download and open the zip file from Github: [https://github.com/VidCoin/VidCoin-
 Open your project in Unity and select “Assets/Import Package/Custom Package...”.
 Navigate to your download folder and select VidCoin.unitypackage. Click on the “All” button first, then click on the “Import” button.
 
-![Image1](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-Unity-1.png)
+![Image1](https://documentation.vidcoin.com/images/Vidcoin-Unity-1.png)
 
 *Note : All files in the “Plugins” folder are required for the plugin to work. The “Sample” folder contains a simple scene to demonstrate the use of the plugin and can be omitted.*
 
@@ -49,7 +49,7 @@ Navigate to your download folder and select VidCoin.unitypackage. Click on the �
 If a new version of the Unity package is released, first download it on Github.
 Then, simply import the package as described in Step 3. New files will be added while existing files will automatically be updated.
 
-![Image2](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-Unity-2.png)
+![Image2](https://documentation.vidcoin.com/images/Vidcoin-Unity-2.png)
 
 ### Step 3 : Set up Vidcoin in your app
 To use Vidcoin in your app, follow these simple steps :
@@ -57,7 +57,7 @@ To use Vidcoin in your app, follow these simple steps :
 2. Add the Vidcoin prefab to the hierarchy
 3. Fill in your Vidcoin AppID in the inspector.
 
-![Image3](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-Unity-3.png)
+![Image3](https://documentation.vidcoin.com/images/Vidcoin-Unity-3.png)
 
 You can now use Vidcoin in your app. For more details on the usage, please keep reading this guide.
 
@@ -139,7 +139,7 @@ When building your project for iOS or tvOS, Unity creates an Xcode project. You 
 1. Open your Xcode project.
 2. Click on your target and go to Build Phases:
 
-![Image4](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-Unity-4.png)
+![Image4](https://documentation.vidcoin.com/images/Vidcoin-Unity-4.png)
 
 3. Under “Link Binary with Librairies”, click on the “+” button to add the following frameworks to the project :
     - AdSupport.framework (iOS and tvOS)
@@ -151,7 +151,7 @@ When building your project for iOS or tvOS, Unity creates an Xcode project. You 
 4. Drag and Drop the Vidcoin iOS or tvOS SDK (located in the *Assets/Plugins/iOS* or *Assets/Plugins/tvOS* folder of your Unity project) on your Xcode project and make sure “Copy items if needed” is ticked.
 5. Under “Copy Bundle Resources”, click on the “+” button, then on the “Add Other…” button. Navigate to the *Assets/Plugins/iOS* or *Assets/Plugins/tvOS* folder of your Unity project and select VidCoin.bundle
 
-![Image5](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-Unity-5.png)
+![Image5](https://documentation.vidcoin.com/images/Vidcoin-Unity-5.png)
 
 *Note : Make sure that “Copy items if needed” is ticked.*
 
@@ -159,7 +159,7 @@ You can now build your Xcode project as you normally would.
 
 *Note : In Unity, if you select “Replace” when building your project for iOS or tvOS, you will have to repeat the full setup process. To avoid that, you should select “Append” when prompted.*
 
-![Image6](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-Unity-6.png)
+![Image6](https://documentation.vidcoin.com/images/Vidcoin-Unity-6.png)
 
 ### Recommended step: Configuring App Transport Security (ATS) Settings
 With iOS 9, Apple introduced a new feature called App Transport Security (ATS), which requires your app to make secure network connections via SSL, and enforces HTTPS connections through its requirements on the SSL version, encryption cipher, and key length.      
@@ -306,7 +306,7 @@ Do not do this in the `Awake()` function as the lists might not be initialized a
 
 When you submit your app for Apple’s approval, you will be asked if your app uses the Advertising Identifier. Vidcoin’s framework does use this identifier, in order to serve advertisements within your app:
 
-![Image7](https://d3rud9259azp35.cloudfront.net/documentation/Vidcoin-Unity-7.png)
+![Image7](https://documentation.vidcoin.com/images/Vidcoin-Unity-7.png)
 
 ## Advice for integration
 The integration of the Vidcoin solution must not deteriorate the user experience.
