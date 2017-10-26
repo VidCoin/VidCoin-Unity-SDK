@@ -2,9 +2,9 @@
 
 ![Vidcoin](https://documentation.vidcoin.com/images/Vidcoin-Logo.png)
 
-Unity version: 1.6.6          
-Packaged iOS SDK version: 1.4.3         
-Packaged Android SDK version: 1.3.5         
+Unity version: 1.6.7          
+Packaged iOS SDK version: 1.4.4         
+Packaged Android SDK version: 1.3.6         
 Packaged tvOS SDK version: 1.0.1         
 Manager: https://manager.vidcoin.com      
 Contact: publishers@vidcoin.com     
