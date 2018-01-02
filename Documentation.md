@@ -2,8 +2,8 @@
 
 ![Vidcoin](https://documentation.vidcoin.com/images/Vidcoin-Logo.png)
 
-Unity version: 1.6.7          
-Packaged iOS SDK version: 1.4.4         
+Unity version: 1.6.8          
+Packaged iOS SDK version: 1.4.5         
 Packaged Android SDK version: 1.3.6         
 Packaged tvOS SDK version: 1.0.1         
 Manager: https://manager.vidcoin.com      
@@ -148,6 +148,7 @@ When building your project for iOS or tvOS, Unity creates an Xcode project. You 
     - CoreTelephony.framework (iOS only)
     - SystemConfiguration.framework (iOS and tvOS)
     - WebKit.framework (iOS only, set to *Optional*)
+    - StoreKit.framework (iOS only, set to *Optional*)
 4. Drag and Drop the Vidcoin iOS or tvOS SDK (located in the *Assets/Plugins/iOS* or *Assets/Plugins/tvOS* folder of your Unity project) on your Xcode project and make sure “Copy items if needed” is ticked.
 5. Under “Copy Bundle Resources”, click on the “+” button, then on the “Add Other…” button. Navigate to the *Assets/Plugins/iOS* or *Assets/Plugins/tvOS* folder of your Unity project and select VidCoin.bundle
 
