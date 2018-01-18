@@ -50,7 +50,7 @@ Versions **1.2.0 and before** have been partly disabled. For the maximum compati
 
 ## Changelog
 
-### v1.6.8
+### v1.6.9
 *(Released on 18 Jan. 2018)*
 - Packages the latest iOS SDK (v1.4.5)
 - Updated for the latest Android SDK (v1.3.8)
